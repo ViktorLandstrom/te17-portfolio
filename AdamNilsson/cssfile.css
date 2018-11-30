@@ -1,0 +1,98 @@
+html {
+
+
+}
+
+head {
+
+
+}
+
+main {
+
+	width: 80%;
+	margin: 0 auto;
+	background-color: lightblue;
+}
+
+body {
+
+	font-size: 16px;
+}
+
+header {
+
+	width: 100%;
+	background-color: fuchsia;
+}
+
+nav {
+
+	font-size: 6em;
+	width: 100%;
+}
+
+nav > ul > li {
+	list-style: none;
+	color: darkblue;
+	background-color: fuchsia;
+	padding: 16px;
+	border: 7px inset black;
+	margin: 20px;
+}
+
+nav > ul > li:hover {
+	background-color: white;
+	padding: 16px;
+}
+
+a {
+	
+	text-decoration: none;
+}
+
+a:hover {
+	
+	color: green;
+}
+section {
+	
+	height: 60vh;
+}
+
+h1 {
+	
+	font-size: 4em;
+	font-family: 'Mrs Sheppards', cursive;
+}
+
+p {
+
+	font-family: 'Permanent Marker', cursive;
+	font-size: 3em;
+}
+
+li {
+	font-size: 0.5em;
+	display: inline;
+}
+.blink_me {
+	animation: blinker 0.17s linear infinite;
+	animation: colour 0.31s linear infinite;
+	animation: coloura 0.31s linear infinite;
+}
+
+@keyframes blinker {
+	50% {
+		opacity: 0;
+	}
+}
+
+@keyframes colour {
+	from {color: black;}
+	to {color: green;}
+}
+@keyframes coloura {
+	from {color: white;}
+	to {color: fuchsia;}
+}
